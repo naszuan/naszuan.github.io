@@ -1,8 +1,8 @@
 body {
-	font-family: 'Open Sans', sans-serif;
-	padding: 120px 0;
+	font-family: 'Orbitron', sans-serif;
+	padding: 0px;
 	color:#000000;
-	background-color:#99d9ff;
+	background: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-34.jpg');
 	
 }
 
@@ -113,7 +113,6 @@ li {
 
 #clock {
 	background-color: #062578;
-	font-family: sans-serif;
 	font-size: 60px;
 	text-shadow: 0px 0px 1px #fff;
 	color: #fff;
@@ -134,3 +133,73 @@ li {
 	font-family: arial, sans-serif;
 	color: #fff;
 }
+
+.menu {
+	background:#202024 url('http://celulares.s3.amazonaws.com/wp-content/gallery/iphone4/llb2h6r.jpg');
+	left: -285px;
+	height: 100%;
+	position: fixed;
+	width: 285px;
+}
+,jumbotron {
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.menu ul {
+	border-bottom: 1px solid #636366;
+	line-height: 45px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-top: 3px;
+}
+
+.menu li {
+	border-bottom: 1px solid #636366;
+	line-height: 45px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-top: 3px;
+}
+
+.menu a {
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.icon-menu {
+	color: #fff;
+	cursor:pointer;
+	font-size: 16px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-left: 25px;
+	padding-top: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.icon-menu i {
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
