@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Naszuan Nasir - Responsive Web Design - Part 1 </title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script src="js/jquery.js"></script>
+	<script>
+		//Choose if you want the window width to display - 1 = yes, 0 = no
+		var showWidth = 1;
+		
+		if(showWidth == 1){
+        	$(document).ready(function (){
+            	$(window).resize(function(){
+                	var width = $(window).width();
+                	document.getElementById("output_width").innerHTML='Window Width:'+width.toString();
+           		});
+        	});
+		}
+    </script>
+</head>
+<body>
+ <div id="output_width"></div><!--Widow width inserted here-->
+	<div id="container">
+	<header class="main-header">
+		<img id="logo" src="images/logo.png" alt="Naszuan Nasir - Responsive Web Design - Part 1" />
+		<nav class="main-nav">
+			<ul>
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Service</a></li>
+				<li><a href="#">Product</a></li>
+				<li><a href="#">Price</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="main">
+		<div id="content">
+			<article class="art1">
+				<header class="art-header">
+					<h2 class="title"><a href="#">My First Post</a></h2>
+					<span>Posted by: Naszuan Nasir on September 15, 2016</span>
+				</header>
+					<p>Lorem ipsum dolor sit amet, ipsum integer sodales vitae ipsum, sed mi, consectetuer faucibus eget elementum eu, eget adipiscing sed in sit, blandit curabitur est cubilia. Sapien lectus, sagittis pulvinar, vivamus metus mauris sed libero, sagittis vel est ligula blanditiis nec quia, leo nam quam eu. Laoreet turpis quis, penatibus mauris. Velit sed non, lectus fringilla enim, duis mattis at rutrum nullam. Ligula consequat dictum neque nullam. Turpis vulputate luctus semper tellus sed quis, cum metus sed feugiat tellus faucibus fringilla, lorem vitae id nec perferendis elementum, ut tellus id.</p>
+					<p>Magna tempus volutpat, egestas ac habitant id ut, lacus non donec, sem eget augue ultrices duis odio dignissim, eu natoque amet at. Consequat amet ultrices vitae nonummy.</p>
+					<a class="readmore" href="#">Read more</a>
+			</article>
+			<article class="art1">
+				<header class="art-header">
+					<h2 class="title"><a href="#">Hello World</a></h2>
+					<span>Posted by: Naszuan Nasir on September 10, 2016</span>
+				</header>
+					<p>Velit amet, diam dui neque cras, lorem egestas enim dictumst risus, ornare aenean sit et sem velit, pede vitae justo erat vehicula. Sapien egestas, nam turpis hendrerit, tortor imperdiet condimentum massa et suspendisse velit, senectus sed ante justo praesent. Dui amet nunc, at eget tristique volutpat, id erat enim pharetra vel eu. .</p>
+					<p>Ultricies risus architecto nam habitasse vel justo, amet nonummy, class bibendum turpis et in.  Eu ipsum eu cursus convallis, accumsan fames interdum, magnis ac pellentesque, et ut, eget neque. Semper lobortis fusce, vestibulum enim.</p>
+					<a class="readmore" href="#">Read more</a>		
+				</article>
+		</div>
+		<aside id="sidebar">
+			<div class="block">
+				<h2>Top Sidebar</h2>
+				<p>
+					Ante interdum nibh, ullamcorper justo, et a mollis. Nec enim in auctor ut leo, duis dictum. Fermentum maecenas at vel wisi non 
+				</p>
+			</div>
+			<div class="block">
+				<h2>Middle Sidebar</h2>
+				<p>
+					Cras dictum, velit metus arcu, sodales nulla neque fermentum risus, diam vivamus. Vitae justo ipsum morbi vestibulum.
+				</p>
+			</div>
+			<div class="block">
+				<h2>Bottom Sidebar</h2>
+				<p>
+					Sit diam elementum amet, sit tellus hac condimentum. Non ut neque suspendisse turpis, neque ligula ac, suspendisse scelerisque litora, auctor dolor suspendisse 
+				</p>
+			</div>
+		</aside>
+	</div>
+	<div class="clr"></div>
+	<footer>
+		<p>Copyright &copy; 2016 - Naszuan  Nasir</p>
+	</footer>
+	</div>
+</body>
+</html>
